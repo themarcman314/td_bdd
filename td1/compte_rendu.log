@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024/Arch Linux) (preloaded format=pdflatex 2025.2.20)  2 MAR 2025 17:51
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024/Arch Linux) (preloaded format=pdflatex 2025.2.20)  2 MAR 2025 22:30
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -312,24 +312,24 @@ File: l3backend-pdftex.def 2024-02-20 L3 backend support: PDF output (pdfTeX)
 (./compte_rendu.aux)
 \openout1 = `compte_rendu.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
  (/usr/share/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count289
@@ -386,26 +386,26 @@ e
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-LaTeX Info: Redefining \degres on input line 14.
-LaTeX Info: Redefining \up on input line 14.
-Package hyperref Info: Link coloring OFF on input line 14.
+LaTeX Info: Redefining \degres on input line 15.
+LaTeX Info: Redefining \up on input line 15.
+Package hyperref Info: Link coloring OFF on input line 15.
 (./compte_rendu.out) (./compte_rendu.out)
 \@outlinefile=\write3
 \openout3 = `compte_rendu.out'.
 
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 17.
+(Font)              <12> on input line 18.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 17.
+(Font)              <8> on input line 18.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 17.
+(Font)              <6> on input line 18.
  (./compte_rendu.toc
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <7> on input line 3.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <5> on input line 3.
 
-Overfull \hbox (1.14197pt too wide) in paragraph at lines 29--29
+Overfull \hbox (1.14197pt too wide) in paragraph at lines 30--30
  [][] [][]\T1/cmr/m/n/10 Quels sont les SGBD les plus utilisés aujourd'hui ? Tr
 ouvez des statistiques et des tendances 
  []
@@ -418,78 +418,84 @@ ouvez des statistiques et des tendances
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}{/usr/share/texmf-dist/fonts
 /enc/dvips/cm-super/cm-super-t1.enc}]
-Underfull \hbox (badness 10000) in paragraph at lines 58--58
+Underfull \hbox (badness 10000) in paragraph at lines 59--59
 []|\T1/cmr/m/n/10 Cohérence et intégrité des
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 60--60
+Underfull \hbox (badness 10000) in paragraph at lines 61--61
 []|\T1/cmr/m/n/10 Accès et manipulation des
  []
 
 
-Underfull \hbox (badness 1661) in paragraph at lines 60--60
+Underfull \hbox (badness 1661) in paragraph at lines 61--61
 []|\T1/cmr/m/n/10 Accès concurentiel dépend du
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 62--63
+Underfull \hbox (badness 10000) in paragraph at lines 63--64
 []|\T1/cmr/m/n/10 Présence de hiérarchie de
  []
 
 
-Underfull \hbox (badness 3354) in paragraph at lines 64--64
+Underfull \hbox (badness 3354) in paragraph at lines 65--65
 []|\T1/cmr/m/n/10 Difficile à maintenir, pas de
  []
 
 [2]
-Overfull \hbox (4.69153pt too wide) in paragraph at lines 131--132
+Overfull \hbox (4.69153pt too wide) in paragraph at lines 132--133
 []\T1/cmr/bx/n/10 Schéma d'une base de données : \T1/cmr/m/n/10 c'est la struct
 ure définie de la base de données, qui décrit l'organisation
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 139--143
+Underfull \hbox (badness 10000) in paragraph at lines 140--144
 
  []
 
 [3]
-Overfull \hbox (5.46036pt too wide) in paragraph at lines 205--210
+Overfull \hbox (5.46036pt too wide) in paragraph at lines 206--211
 \T1/cmr/m/n/10 convient aux applications nécessitant des requêtes complexes. Mo
 ngoDB est idéal pour des applications nécessitant
  []
 
-[4] [5]
-Overfull \hbox (0.41698pt too wide) in paragraph at lines 284--284
+[4]
+Overfull \hbox (2.23102pt too wide) in paragraph at lines 223--224
+[]\T1/cmr/bx/n/10 Schéma flexible : \T1/cmr/m/n/10 Netflix doit gérer différent
+s types de données, comme les profils utilisateurs, l'historique
+ []
+
+[5]
+Overfull \hbox (0.41698pt too wide) in paragraph at lines 303--303
 []\T1/cmr/bx/n/10 Quels sont les SGBD les plus utilisés aujourd'hui ? Trouvez d
 es statistiques et des tendances
  []
 
-[6] (./compte_rendu.aux)
+[6] [7] [8] (./compte_rendu.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
  ***********
 Package rerunfilecheck Info: File `compte_rendu.out' has not changed.
-(rerunfilecheck)             Checksum: B6D759BEF9792C62D6B532CF4C745403;14560.
+(rerunfilecheck)             Checksum: A9D7A6E43C6AF05B71CC553663C606E7;16821.
  ) 
 Here is how much of TeX's memory you used:
- 11575 strings out of 476076
- 179404 string characters out of 5793775
- 1951187 words of memory out of 5000000
- 33512 multiletter control sequences out of 15000+600000
+ 11587 strings out of 476076
+ 179606 string characters out of 5793775
+ 1953187 words of memory out of 5000000
+ 33517 multiletter control sequences out of 15000+600000
  566195 words of font info for 52 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 75i,11n,79p,1208b,558s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,11n,79p,1208b,533s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texmf-dist/fonts/type1/public/cm-super/sfbx1000.pfb></usr/share/t
 exmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/share/texmf-dist/fonts
 /type1/public/cm-super/sfbx1440.pfb></usr/share/texmf-dist/fonts/type1/public/c
 m-super/sfrm1000.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm120
 0.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm1728.pfb>
-Output written on compte_rendu.pdf (6 pages, 142706 bytes).
+Output written on compte_rendu.pdf (8 pages, 153764 bytes).
 PDF statistics:
- 237 PDF objects out of 1000 (max. 8388607)
- 214 compressed objects within 3 object streams
- 45 named destinations out of 1000 (max. 500000)
- 225 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 274 PDF objects out of 1000 (max. 8388607)
+ 249 compressed objects within 3 object streams
+ 52 named destinations out of 1000 (max. 500000)
+ 265 words of extra memory for PDF output out of 10000 (max. 10000000)
 

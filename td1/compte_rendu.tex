@@ -9,7 +9,8 @@
 
 \title{TD1 SGBD : \\ Introduction aux Bases de Données et aux SGBD}
 \author{Marc Robison\\
-	Nils Peteil}
+	Nils Peteil\\
+  Nicolas Coutté-Péroumal}
 
 \begin{document}
 
@@ -208,6 +209,24 @@ MongoDB est idéal pour des applications nécessitant une grande flexibilité da
 données. 
 Firebase est optimisé pour des applications mobiles et web en temps réel. 
 
+
+\subsubsection{Trouvez un exemple d’application qui utilise NoSQL et justifiez pourquoi ce choix a été fait.}
+Un excellent exemple d'application qui utilise NoSQL de manière efficace est Netflix.
+
+Netflix est un excellent choix car il met en valeur plusieurs avantages clés de NoSQL, notamment dans la gestion de volumes massifs de données, la fourniture de scalabilité et la gestion de types de données variés. Voici pourquoi Netflix est un bon exemple :
+
+\begin{itemize}
+  \item \textbf{Scalabilité :} Netflix est un service de streaming mondial avec des millions d'utilisateurs qui regardent des vidéos en même temps. Il doit être capable de se scaler horizontalement, en ajoutant des serveurs pour gérer l'augmentation du trafic et des données. Les bases de données NoSQL, comme Cassandra et DynamoDB, permettent à Netflix de se scaler de manière plus efficace que les bases de données SQL traditionnelles, en prenant en charge le scaling horizontal, ce qui signifie qu'il est possible d'ajouter plus de nœuds pour gérer la charge sans avoir besoin de modifier la structure de la base de données existante.
+
+  \item \textbf{Haute disponibilité :} Netflix utilise NoSQL pour maintenir une haute disponibilité, même lors de pics de trafic massifs. Les bases de données NoSQL comme Cassandra offrent une consistance éventuelle et sont conçues pour rester disponibles même si certains nœuds sont hors ligne, ce qui garantit que les utilisateurs peuvent continuer à diffuser des vidéos sans interruption.
+
+  \item \textbf{Schéma flexible :} Netflix doit gérer différents types de données, comme les profils utilisateurs, l'historique de visionnage, les métadonnées du contenu et les recommandations, qui évoluent au fil du temps. Les bases de données relationnelles traditionnelles nécessitent un schéma fixe, ce qui peut être restrictif pour les données qui changent rapidement ou sont variées. Les bases de données NoSQL sont sans schéma ou possèdent un schéma flexible, ce qui facilite le stockage et l'ajustement des types de données (par exemple, les documents JSON dans MongoDB ou les paires clé-valeur dans Redis).
+
+  \item \textbf{Gestion du Big Data :} Avec des millions d'utilisateurs et d'énormes quantités de données générées (comme les habitudes de visionnage, l'historique des recherches, les recommandations, etc.), Netflix a besoin d'une base de données capable de gérer le Big Data. Les bases de données NoSQL sont optimisées pour gérer des données volumineuses, non structurées ou semi-structurées, ce qui est exactement ce que Netflix nécessite. Cela permet à Netflix d'analyser et d'exploiter des ensembles de données massifs pour des fonctionnalités comme les recommandations personnalisées.
+
+  \item \textbf{Performance :} La nécessité d'opérations à faible latence et à haut débit est essentielle pour garantir une expérience utilisateur fluide. Les bases de données NoSQL sont optimisées pour la performance en distribuant les données sur plusieurs nœuds, ce qui permet de réduire la latence et d'assurer des réponses plus rapides lorsque les utilisateurs interagissent avec la plateforme, comme lorsqu'ils recherchent un film ou une série.
+\end{itemize}
+
 \section{Partie 2}
 
 
@@ -298,5 +317,52 @@ Les SGBD les plus populaires en 2025 incluent :
 Les tendances actuelles montrent une adoption croissante des solutions cloud pour les SGBD, offrant des avantages en termes de scalabilité, de coûts et de maintenance simplifiée. De plus, l’intégration de fonctionnalités d’analyse en temps réel et de support pour le Big Data devient un critère clé dans le choix des SGBD.
 
 
+\subsection{Ex3 : Conclusion et discussion finale}
+\subsubsection{Quels ont été les points les plus intéressants à explorer ? }
+\subsubsection{Comment choisir le bon type de base de données selon les besoins d’un projet ?}
+Le choix du type de base de données dépend principalement des exigences spécifiques du projet, notamment le type de données à gérer, la complexité des requêtes, les performances, la scalabilité, et la disponibilité des données. Voici quelques critères clés à prendre en compte :
 
+    Type de données :
+     \textbf{Données structurées :}
+     Si le projet implique des données fortement structurées, avec des relations bien définies (comme des utilisateurs, des commandes, etc.), une base de données relationnelle (SQL) comme MySQL, PostgreSQL ou Oracle peut être la meilleure option.
+        Données non structurées ou semi-structurées : Si les données sont moins structurées (par exemple, des documents JSON, des images ou des vidéos), une base de données NoSQL (comme MongoDB pour des documents, Cassandra pour des données distribuées, ou Redis pour des données en cache) pourrait être plus appropriée.
+
+    \textbf{Scalabilité :}
+        Si votre projet nécessite de scaler horizontalement (ajouter des serveurs pour gérer la charge), les bases de données NoSQL sont souvent plus adaptées. Elles sont conçues pour être distribuées, et peuvent facilement s'adapter à une augmentation importante du volume de données et du nombre d’utilisateurs.
+        Si la scalabilité verticale (amélioration de la capacité d’un serveur unique) est suffisante, une base de données relationnelle peut être suffisante, bien qu’elle ne soit pas aussi flexible à cet égard.
+
+    \textbf{Consistance vs disponibilité :}
+        Si la consistance forte est nécessaire (par exemple, garantir que toutes les copies des données sont synchronisées en temps réel), une base de données relationnelle avec des mécanismes de verrouillage est préférable.
+        Si la disponibilité est plus critique et que l'application peut tolérer une certaine consistance éventuelle, une base de données NoSQL comme Cassandra ou DynamoDB est plus adaptée. Cela est souvent le cas dans les applications web à grande échelle où la tolérance aux pannes et la répartition des données sur plusieurs serveurs sont essentielles.
+
+    \textbf{Performance et latence :}
+        Pour des requêtes complexes, impliquant des jointures multiples et une forte normalisation des données, une base de données relationnelle sera plus performante.
+        Pour des requêtes simples à haut débit, comme des lectures ou écritures rapides dans des applications web ou mobiles, une base de données NoSQL est souvent plus rapide et plus efficace.
+
+    \textbf{Budget et gestion :}
+        Si votre projet nécessite un coût faible et une gestion simplifiée, des bases de données NoSQL peuvent offrir plus de flexibilité en termes de coût d’exploitation. Certaines bases de données NoSQL sont également gérées dans le cloud (comme MongoDB Atlas ou DynamoDB), ce qui réduit les coûts et les efforts de gestion.
+        Si une gestion stricte des données et des transactions est essentielle (comme dans les systèmes bancaires), alors une base de données relationnelle avec des fonctionnalités de gestion de transactions (ACID) est plus appropriée.
+
+\subsubsection{Discussion sur les tendances futures (IA, bases de données distribuées, etc.).}
+Les tendances futures des bases de données sont marquées par l’évolution des besoins technologiques, notamment avec l’avènement de l’intelligence artificielle (IA), des bases de données distribuées, et de la gestion de données massives. Voici quelques évolutions importantes à surveiller :
+
+    Intelligence Artificielle et bases de données :
+        \textbf{Optimisation des requêtes par IA :}
+        L'IA pourrait jouer un rôle clé dans l’optimisation des performances des bases de données. Par exemple, des algorithmes d’apprentissage automatique pourraient être utilisés pour optimiser les requêtes en fonction du comportement des utilisateurs, ou pour prédire et ajuster dynamiquement les configurations des bases de données pour améliorer la performance.
+        \textbf{Bases de données dédiées à l'IA :} 
+        De nouvelles bases de données pourraient être spécialement conçues pour stocker et gérer des données massives liées à l’IA, comme des données d’entraînement de modèles de machine learning. Ces bases de données pourraient être capables d’intégrer nativement des capacités de traitement de données massives, de gestion de modèles, et d’optimisation en temps réel.
+
+    \textbf{Bases de données distribuées :}
+        Les bases de données distribuées deviennent de plus en plus populaires avec la croissance des applications mondiales nécessitant une répartition des données sur plusieurs serveurs et régions géographiques. Des bases comme Cassandra, CockroachDB, ou Google Spanner continuent à émerger pour répondre à la demande de scalabilité horizontale tout en garantissant des performances de haute qualité.
+        Ces bases sont essentielles pour des applications de grande envergure qui nécessitent une disponibilité continue et une résilience face aux pannes. Les entreprises, par exemple dans le secteur du e-commerce ou des réseaux sociaux, en bénéficient particulièrement.
+
+    \textbf{Bases de données multi-modèles :}
+        Une autre tendance est l'émergence de bases de données multi-modèles, qui permettent de gérer plusieurs types de données (relationnelles, documentaires, graphiques, etc.) au sein de la même plateforme. Cela permet aux entreprises de ne pas se limiter à un seul type de base de données et de choisir le modèle le plus adapté à chaque cas d’utilisation. Par exemple, ArangoDB ou Couchbase permettent de gérer différents modèles de données dans une même base.
+
+    \textbf{Bases de données en cloud et serverless :}
+        Les bases de données cloud comme AWS DynamoDB, Google Firebase ou Azure Cosmos DB connaissent une adoption croissante, offrant une gestion simplifiée et évolutive sans avoir à se soucier de l'infrastructure. Cela permet aux développeurs de se concentrer sur le développement d’applications plutôt que sur la gestion des bases de données.
+        Le modèle serverless pourrait se développer davantage, permettant aux entreprises d’utiliser des bases de données sans avoir à gérer de serveurs dédiés. Cela offre de l’élasticité et une facturation à la demande, ce qui est idéal pour les applications avec une charge variable.
+
+    \textbf{Blockchain et bases de données décentralisées :}
+        Avec la montée en puissance de la blockchain, les bases de données décentralisées pourraient devenir une tendance clé. Ces bases de données sont conçues pour offrir des transactions transparentes, sécurisées et immuables. Elles sont particulièrement pertinentes pour les industries financières, les chaînes d'approvisionnement, ou encore la gestion des identités.
 \end{document}
